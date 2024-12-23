@@ -1,0 +1,14 @@
+[0;1;32m●[0m php8.1-fpm.service - The PHP 8.1 FastCGI Process Manager
+     Loaded: loaded (/lib/systemd/system/php8.1-fpm.service; enabled; vendor preset: enabled)
+     Active: [0;1;32mactive (running)[0m since Wed 2024-12-11 13:08:46 UTC; 5min ago
+       Docs: man:php-fpm8.1(8)
+   Main PID: 734 (php-fpm8.1)
+     Status: "Processes active: 0, idle: 0, Requests: 0, slow: 0, Traffic: 0req/sec"
+      Tasks: 1 (limit: 9477)
+     Memory: 25.7M
+        CPU: 92ms
+     CGroup: /system.slice/php8.1-fpm.service
+             └─734 "php-fpm: master process (/etc/php/8.1/fpm/php-fpm.conf)" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" ""
+
+Dec 11 13:08:45 App systemd[1]: Starting The PHP 8.1 FastCGI Process Manager...
+Dec 11 13:08:46 App systemd[1]: Started The PHP 8.1 FastCGI Process Manager.

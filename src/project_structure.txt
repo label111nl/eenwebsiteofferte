@@ -1,0 +1,132 @@
+.
+├── api
+│   ├── auth.ts
+│   ├── index.ts
+│   ├── mockData.ts
+│   └── wordpress.ts
+├── App.tsx
+├── components
+│   ├── AdminPanel
+│   │   ├── AffiliateProgram.tsx
+│   │   ├── Analytics.tsx
+│   │   ├── CreateLead.tsx
+│   │   ├── FreelancerApproval.tsx
+│   │   ├── LeadApproval.tsx
+│   │   ├── StripeSettings.tsx
+│   │   └── SubscriptionPlans.tsx
+│   ├── Chat
+│   │   ├── ChatHeader.tsx
+│   │   ├── ChatInput.tsx
+│   │   ├── ChatMessage.tsx
+│   │   └── ChatWindow.tsx
+│   ├── Layout.tsx
+│   ├── LeadPayment
+│   │   └── PaymentModal.tsx
+│   ├── LeadResponse
+│   │   └── LeadResponseForm.tsx
+│   ├── LeadStats.tsx
+│   ├── MarketIntelligence
+│   │   └── MarketDashboard.tsx
+│   ├── Notifications.tsx
+│   ├── RecentActivity.tsx
+│   ├── Settings
+│   │   ├── KvKVerification.tsx
+│   │   └── NotificationPreferences.tsx
+│   ├── SmartLeadMatching
+│   │   └── MatchingDashboard.tsx
+│   ├── SubscriptionStatus.tsx
+│   ├── TrustVerification
+│   │   └── VerificationDashboard.tsx
+│   └── ui
+│       ├── Badge.tsx
+│       ├── Button.tsx
+│       ├── Card.tsx
+│       ├── Input.tsx
+│       ├── Modal.tsx
+│       ├── Tabs.tsx
+│       └── Toast.tsx
+├── config
+│   ├── database.ts
+│   └── environment.ts
+├── contexts
+│   ├── AuthContext.tsx
+│   ├── ChatContext.tsx
+│   └── TranslationContext.tsx
+├── controllers
+│   ├── adminController.ts
+│   ├── freelancerController.ts
+│   └── paymentController.ts
+├── hooks
+│   ├── useChat.ts
+│   └── useTranslation.ts
+├── index.css
+├── main.tsx
+├── pages
+│   ├── Admin
+│   │   └── Dashboard.tsx
+│   ├── Auth
+│   │   ├── LoginPage.tsx
+│   │   └── RegisterPage.tsx
+│   ├── Client
+│   │   ├── Dashboard.tsx
+│   │   ├── FreelancerResponses.tsx
+│   │   ├── NewProject.tsx
+│   │   ├── Onboarding.tsx
+│   │   ├── ProjectList.tsx
+│   │   └── ProjectStats.tsx
+│   ├── Dashboard.tsx
+│   ├── Freelancer
+│   │   ├── Dashboard.tsx
+│   │   ├── OnboardingQuiz.tsx
+│   │   └── Onboarding.tsx
+│   ├── Leads
+│   │   ├── index.tsx
+│   │   ├── LeadDetails.tsx
+│   │   └── LeadList.tsx
+│   ├── Payments
+│   │   ├── index.tsx
+│   │   └── PaymentList.tsx
+│   ├── PremiumLeads
+│   │   ├── index.tsx
+│   │   ├── LinkedInScanner.tsx
+│   │   └── PremiumLeadsList.tsx
+│   ├── Settings
+│   │   ├── index.tsx
+│   │   ├── PortfolioSection.tsx
+│   │   ├── ProfileForm.tsx
+│   │   └── ServicesSection.tsx
+│   └── Support
+│       ├── index.tsx
+│       ├── NewTicket.tsx
+│       └── TicketList.tsx
+├── project_structure.txt
+├── routes
+│   ├── adminRoutes.ts
+│   ├── freelancerRoutes.ts
+│   └── paymentRoutes.ts
+├── services
+│   ├── kvk.ts
+│   ├── notifications.ts
+│   ├── socket.ts
+│   └── whatsapp.ts
+├── translations
+│   ├── en.ts
+│   ├── nl.ts
+│   └── types.ts
+├── types
+│   ├── auth.ts
+│   ├── chat.ts
+│   ├── index.ts
+│   ├── ticket.ts
+│   └── wordpress.ts
+├── utils
+│   ├── cn.ts
+│   ├── error-boundary.tsx
+│   ├── i18n.ts
+│   ├── monitoring.tsx
+│   ├── security.ts
+│   ├── socket.ts
+│   └── stripe.ts
+└── vite-env.d.ts
+
+30 directories, 99 files
