@@ -133,4 +133,4 @@ VITE_TWILIO_WHATSAPP_NUMBER=
 4. Submit a pull request
 
 ## License
-Proprietary software. All rights reserved.
+Proprietary software. All rights reserved.# eenwebsiteofferte
